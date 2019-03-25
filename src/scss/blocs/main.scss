@@ -18,39 +18,25 @@ top: -129%;
 // transform: translate(-50%, -50%);
 // z-index: 1;
 // }
-
+.bgtext {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 128px;
+  font-size: 8em;
+  line-height: normal;
+  color: rgba(123, 150, 177, 0.3); 
+  left: 8%;
+  height: 132px;
+  position: absolute;
+}
 .prod {
-position: absolute;
 width: 670px;
-height: 132px;
-left: 8%;
 top: 5%;
-
-font-family: Gotham;
-font-style: normal;
-font-weight: 900;
-font-size: 128px;
-font-size: 8em;
-line-height: normal;
-
-color: rgba(123, 150, 177, 0.3); 
 }
 
 .sound {
-position: absolute;
-width: 1135px;
-height: 132px;
-left: 8%;
 top: 80%;
-
-font-family: Gotham;
-font-style: normal;
-font-weight: 900;
-font-size: 128px;
-font-size: 8em;
-line-height: normal;
-
-color: rgba(123, 150, 177, 0.3);
 }
 
 .bottom {

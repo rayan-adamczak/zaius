@@ -1,9 +1,32 @@
+nav {
+  left: 1%;
+    position: absolute;
+    height: 100px;
+    width: 68px;
+}
+
 .sc {
 position: absolute;
 left: 1.46%;
 right: 96.34%;
-top: 42.67%;
+top: -45%;
 bottom: 54.93%;
 width: 30px;
 height: auto;
+}
+
+.yt {
+position: absolute;
+left: 1.46%;
+right: 96.34%;
+top: -15%;
+bottom: 49.39%;
+}
+
+.bc {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1.46%;
+top: 20.5%;
 }
