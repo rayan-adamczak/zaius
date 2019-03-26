@@ -1,23 +1,27 @@
 nav {
-  left: 1%;
-    position: absolute;
+  left: 1.50%;
+    position: fixed;
     height: 100px;
     width: 68px;
 }
 
 .sc {
 position: absolute;
-left: 1.46%;
+left: 1.50%;
 right: 96.34%;
 top: -45%;
 bottom: 54.93%;
 width: 30px;
 height: auto;
+
+&:hover {
+  fill: black;
+}
 }
 
 .yt {
 position: absolute;
-left: 1.46%;
+left: 1.50%;
 right: 96.34%;
 top: -15%;
 bottom: 49.39%;
@@ -27,6 +31,6 @@ bottom: 49.39%;
 position: absolute;
 width: 30px;
 height: 30px;
-left: 1.46%;
+left: 1.50%;
 top: 20.5%;
 }
