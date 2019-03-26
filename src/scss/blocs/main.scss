@@ -1,8 +1,10 @@
 .portrait {
 position: absolute;
-width: 40vw;
+width: 150%;
+height: auto;
 left: 50%;
 top: -129%;
+max-width: 800px;
   @media screen and (max-width:1366px){
     width: 120%;
     top: -90%;
