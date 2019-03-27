@@ -1,3 +1,9 @@
+$desktop: "(min-width: 1024px)";
+
+@mixin desktop {
+  
+}
+
 .portrait {
 position: absolute;
 width: 150%;
@@ -5,21 +11,14 @@ height: auto;
 left: 50%;
 top: -129%;
 max-width: 800px;
-  @media screen and (max-width:1366px){
-    width: 120%;
-    top: -90%;
+
+  @media screen and (max-width:1200px){
+    width: 40vw;
+    top: -13vh;
   }
+
 }
 
-// .zaius {
-// position: absolute;
-// width: 466px;
-// height: 209px;
-// top: 50%;
-// left: 50%;
-// transform: translate(-50%, -50%);
-// z-index: 1;
-// }
 .bgtext {
   font-family: Gotham;
   font-style: normal;
@@ -31,7 +30,12 @@ max-width: 800px;
   left: 8%;
   height: 132px;
   position: absolute;
+  @media screen and (max-width:1200px){
+    font-size: 6rem;
+  }
+
 }
+
 .prod {
 width: 670px;
 top: 5%;
@@ -41,38 +45,27 @@ top: 5%;
 top: 80%;
 }
 
-.bottom {
+
+.zaius {
   font-family: Gotham;
   font-style: normal;
   font-weight: 900;
   font-size: 144px;
-  color: #ededed;
-  // margin-top: 23%;
-  // text-align: center;
+  font-size: 9em;
   position: absolute;
+}
+
+.bottom {
+  color: #ededed;
   z-index: -1;
 }
 
 .up {
-  font-family: Gotham;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 144px;
   fill: none;
   color: transparent;
   -webkit-text-stroke: #ededed 2px;
-  // // top: 41%;
-  // left: 36.1%;
-  // position: absolute;
   z-index: 2;
-  position: absolute;
 }
-
-// .group {
-//   left: 32%;
-//   top: 40%;
-//   position: absolute;
-// }
 
 .group {
   position: relative;
@@ -83,4 +76,5 @@ top: 80%;
   transform: translate(-50%, -50%);
   margin-top: 28%;
   z-index: 1;
+
 }
