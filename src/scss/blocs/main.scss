@@ -6,16 +6,21 @@ $desktop: "(min-width: 1024px)";
 
 .portrait {
 position: absolute;
-width: 150%;
+width: 42%;
 height: auto;
 left: 50%;
-top: -129%;
-max-width: 800px;
+top: 20vh;
 
-  @media screen and (max-width:1200px){
-    width: 40vw;
-    top: -13vh;
+
+  @media screen and (max-width:1366px){
+    width: 40%;
+    top: 24vh;
   }
+  @media screen and (max-width:1200px){
+    width: 100%;
+    top: -20vh;
+  }
+  
 
 }
 
@@ -25,7 +30,6 @@ max-width: 800px;
   font-weight: 900;
   font-size: 128px;
   font-size: 8em;
-  line-height: normal;
   color: rgba(123, 150, 177, 0.3); 
   left: 8%;
   height: 132px;
@@ -42,7 +46,7 @@ top: 5%;
 }
 
 .sound {
-top: 80%;
+top: 81.5%;
 }
 
 
@@ -53,6 +57,12 @@ top: 80%;
   font-size: 144px;
   font-size: 9em;
   position: absolute;
+  top: 40vh;
+
+  @media screen and (max-width:1366px){
+    font-size: 8em;
+  }
+  
 }
 
 .bottom {
@@ -69,12 +79,22 @@ top: 80%;
 
 .group {
   position: relative;
-  width: 465.125px;
-  height: 144px;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 28%;
+  // width: 465.125px;
+  // height: 144px;
+  // left: 50%;
+  // right: 50%;
+  // transform: translate(-50%, -50%);
+  // margin-top: 28%;
   z-index: 1;
+  
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.mail {
+  &:hover {
+    color: red;
+  }
 }

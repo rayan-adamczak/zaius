@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: #1C2936;
-  height: 300vh;
+  height: 200vh;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -17,4 +17,12 @@ body {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
+
+  &:not(p) {
+
+  }
+}
+
+section {
+  height: 100vh;
 }
