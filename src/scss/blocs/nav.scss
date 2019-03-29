@@ -3,15 +3,10 @@ nav {
   position: fixed;
   height: 100px;
   width: 68px;
-  top: 40vh;
+  top: 43vh;
 }
 
 .sc {
-// position: absolute;
-// left: 1.50%;
-// right: 96.34%;
-// top: -45%;
-// bottom: 54.93%;
 width: 30px;
 height: auto;
 
@@ -21,23 +16,35 @@ height: auto;
 }
 
 .yt {
-// position: absolute;
-// left: 1.50%;
-// right: 96.34%;
-// top: -15%;
-// bottom: 49.39%;
-// width: 30px;
-// height: auto;
 width: 30px;
 height: auto;
 }
 
 .bc {
-// position: absolute;
-// width: 30px;
-// height: 30px;
-// left: 1.50%;
-// top: 20.5%;
 width: 30px;
 height: auto;
 }
+
+li:first-child {
+  height: 15px;
+}
+
+li:nth-child(2) {
+  height: 22px;
+}
+
+li:last-child {
+  height: 31px;
+}
+
+ul {
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// a:first-child {
+//   height: 14px;
+//   position: absolute;
+// }
