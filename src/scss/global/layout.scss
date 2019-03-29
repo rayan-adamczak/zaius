@@ -3,7 +3,7 @@ html {
   overflow-x: hidden;
 }
 
-body {
+body:not(p) {
   background-color: #1C2936;
   height: 200vh;
   -webkit-touch-callout: none;
@@ -18,9 +18,6 @@ body {
   /* Internet Explorer/Edge */
   user-select: none;
 
-  &:not(p) {
-
-  }
 }
 
 section {
