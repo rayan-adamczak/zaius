@@ -8,6 +8,24 @@
   text-align: center;
   padding-top: 20vh;
   font-family: "Gotham";
+  color: #ededed;
+
+  -webkit-touch-callout: text;
+  /* iOS Safari */
+  -webkit-user-select: text;
+  /* Safari */
+  -khtml-user-select: text;
+  /* Konqueror HTML */
+  -moz-user-select: text;
+  /* Firefox */
+  -ms-user-select: text;
+  /* Internet Explorer/Edge */
+  user-select: text;
+}
+
+.modal {
+  color: #222222;
+  font-size: 1.2em;
 }
 
 .talk {
@@ -16,18 +34,18 @@
 
 .click {
   font-size: 1.5em;
+  margin-top: 1vh;
 }
 
 .mail {
   font-size: 1.2em;
   margin-top: 5vh;
-
+  width: 15vw;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
   cursor: pointer;
-    width: 15vw;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
 }
 
 
