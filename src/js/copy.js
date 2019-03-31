@@ -37,33 +37,38 @@ jQuery(function($) {
 
 
 
-// // Creation of the function copy
-// function copyToClipboard(text){
-//   var dummy = document.createElement("input");
-//   document.body.appendChild(dummy);
-//   dummy.setAttribute('value', text);
-//   dummy.select();
-//   document.execCommand("copy");
-//   document.body.removeChild(dummy);
-// };
+// Creation of the function copy
+function Clipboard(text){
+  var dummy = document.createElement("input");
+  document.body.appendChild(dummy);
+  dummy.setAttribute('value', text);
+  dummy.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummy);
+};
 
-// // Using of the function
-// document.getElementById("mail").addEventListener("click", copyToClipboard("oscar@cyberbea.com"));
+// Using of the function
+document.getElementById("mail").addEventListener("click", Clipboard("oscar@cyberbea.com"));
 
-function copyToClipBoard(text) {
-  try {
-      var $temp = $("<input>");
-      $("body").append($temp);
-      $temp.val(text).select();
-      var retVal = document.execCommand("copy");
-      console.log('Copy to clipboard returns: ' + retVal);
-      $temp.remove();
-  } catch (err) {
-      console.log('Error while copying to clipboard: ' + err);
-  }
-}
 
-$("mail").on('click', copyToClipBoard('oscar@cyberbea.com'));
+
+
+
+// function copyToClipBoard(text) {
+//   try {
+//       var $temp = $("<input>");
+//       $("body").append($temp);
+//       $temp.val(text).select();
+//       var retVal = document.execCommand("copy");
+//       console.log('Copy to clipboard returns: ' + retVal);
+//       $temp.remove();
+//   } catch (err) {
+//       console.log('Error while copying to clipboard: ' + err);
+//   }
+// }
+
+// $("mail").on('click', copyToClipBoard('oscar@cyberbea.com'));
+
 
 
 
