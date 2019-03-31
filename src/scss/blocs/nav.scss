@@ -10,19 +10,41 @@ nav {
 width: 30px;
 height: auto;
 
-  &:hover {
-    fill: black;
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+
+  &:hover{
+    fill: #fff;
   }
 }
 
 .yt {
 width: 30px;
 height: auto;
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+
+  &:hover{
+    fill: #fff;
+  }
 }
 
 .bc {
 width: 30px;
 height: auto;
+
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+
+  &:hover{
+    fill: #fff;
+  }
 }
 
 li:first-child {
@@ -47,7 +69,3 @@ ul {
   }
 }
 
-// a:first-child {
-//   height: 14px;
-//   position: absolute;
-// }
