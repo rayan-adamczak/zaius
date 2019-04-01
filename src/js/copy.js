@@ -31,13 +31,6 @@ jQuery(function($) {
 
 
 
-
-
-
-
-
-
-
 // // Creation of the function copy
 // function Clipboard(text){
 //   var dummy = document.createElement("input");

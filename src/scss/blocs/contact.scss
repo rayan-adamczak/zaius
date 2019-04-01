@@ -1,8 +1,18 @@
 .mail {
+  font-size: 1.2em;
+  margin-top: 5vh;
+  width: 15vw;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  cursor: pointer;
+  // Animation hover
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+  
   &:hover {
     color: white;
   }
@@ -14,7 +24,6 @@
   font-family: "GothamB";
   color: #ededed;
   z-index: 10;
-  
   height: 60vh;
   
   -webkit-touch-callout: text;
@@ -30,11 +39,6 @@
   user-select: text;
 }
 
-.modal {
-  color: #222222;
-  font-size: 1.2em;
-}
-
 .talk {
   font-size: 5em;
 }
@@ -44,30 +48,12 @@
   margin-top: 1vh;
 }
 
-.mail {
-  font-size: 1.2em;
-  margin-top: 5vh;
-  width: 15vw;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /** Modal */
 .modal {
+  color: #222222;
+  font-size: 1.2em;
+
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s;
@@ -115,12 +101,6 @@
   content: "X";
 }
 
-
-
-
-
-
-
 .animated.fadeInUp {
   -webkit-animation-name: fadeInUp;
   -moz-animation-name: fadeInUp;
@@ -165,13 +145,7 @@
 }
 
 
-
-
-
-
-
-
-
+// Animations fadeInUp
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;

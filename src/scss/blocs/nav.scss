@@ -7,37 +7,21 @@ nav {
   z-index: 4;
 }
 
-.sc {
-width: 30px;
-height: auto;
-
-transition: 200ms;
-transition-timing-function: ease-in-out;
--webkit-transition: 200ms;
--webkit-transition-timing-function: ease-in-out;
-
-  &:hover{
-    fill: #fff;
+ul {
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media screen and (max-width:1200px){
+    height: 82px;
   }
 }
 
-.yt {
-width: 30px;
-height: auto;
-transition: 200ms;
-transition-timing-function: ease-in-out;
--webkit-transition: 200ms;
--webkit-transition-timing-function: ease-in-out;
-
-  &:hover{
-    fill: #fff;
-  }
-}
-
-.bc {
+.icon {
 width: 30px;
 height: auto;
 
+// Animation hover
 transition: 200ms;
 transition-timing-function: ease-in-out;
 -webkit-transition: 200ms;
@@ -60,13 +44,4 @@ li:last-child {
   height: 31px;
 }
 
-ul {
-  height: 94px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  @media screen and (max-width:1200px){
-    height: 82px;
-  }
-}
 
