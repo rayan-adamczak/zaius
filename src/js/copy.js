@@ -74,7 +74,7 @@ jQuery(function($) {
 
 
   
-document.getElementById('mail').addEventListener( 'click', function( event ) { copytext("oscar") } );
+document.getElementById('mail').addEventListener( 'click', function( event ) { copytext("oscar@cyberbea.com©©") } );
 
 
     function detectIE() {
