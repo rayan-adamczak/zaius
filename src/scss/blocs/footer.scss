@@ -1,0 +1,22 @@
+footer {
+  p {
+    color: #ededed;
+    font-family: "GothamM";
+    font-size: 12px;
+    font-size: 0.75em;
+    text-align: center;
+    margin-bottom: 10px;
+
+    -webkit-touch-callout: text;
+    /* iOS Safari */
+    -webkit-user-select: text;
+    /* Safari */
+    -khtml-user-select: text;
+    /* Konqueror HTML */
+    -moz-user-select: text;
+    /* Firefox */
+    -ms-user-select: text;
+    /* Internet Explorer/Edge */
+    user-select: text;
+  }
+}

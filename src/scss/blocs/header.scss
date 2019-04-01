@@ -4,6 +4,7 @@
   right: 91.8%;
   top: 4%;
   bottom: 93.33%;
+  z-index: 10;
 }
 
 .contactme {
@@ -11,22 +12,23 @@
   position: fixed;
   right: 1.50%;
   top: 5%;
-
-    -webkit-animation: rotation 7s infinite linear;
-    
+  z-index: 10;
+  
+  -webkit-animation: rotation 10s infinite linear;
+  
   &:hover {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
-     animation-play-state: paused;
+    animation-play-state: paused;
   }
 }
 
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }

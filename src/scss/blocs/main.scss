@@ -5,13 +5,13 @@ $desktop: "(min-width: 1024px)";
 }
 
 .portrait {
-position: absolute;
-width: 42%;
-height: auto;
-left: 50%;
-top: 20vh;
-
-
+  position: absolute;
+  width: 42%;
+  height: auto;
+  left: 50%;
+  top: 20vh;
+  
+  
   @media screen and (max-width:1366px){
     width: 40%;
     top: 24vh;
@@ -21,32 +21,30 @@ top: 20vh;
     top: 22vh;
   }
   
-
+  
 }
 
 .bgtext {
-  font-family: Gotham;
-  font-style: normal;
-  font-weight: 900;
+  font-family: "GothamB";
   font-size: 128px;
   font-size: 8em;
-  color: rgba(123, 150, 177, 0.3); 
+  color: rgba(123, 150, 177, 0.3);
   left: 8%;
   height: 132px;
   position: absolute;
   @media screen and (max-width:1200px){
     font-size: 6rem;
   }
-
+  
 }
 
 .prod {
-width: 670px;
-top: 5%;
+  width: 670px;
+  top: 5%;
 }
 
 .sound {
-top: 81.5%;
+  top: 81.5%;
 }
 
 
@@ -58,7 +56,7 @@ top: 81.5%;
   font-size: 9em;
   position: absolute;
   top: 40vh;
-
+  
   @media screen and (max-width:1366px){
     font-size: 8em;
   }

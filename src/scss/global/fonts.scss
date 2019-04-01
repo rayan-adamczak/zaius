@@ -1,7 +1,16 @@
 @font-face {
-  font-family: "Gotham";
+  font-family: "GothamB";
   font-weight: 900;
   src: url("../fonts/Gotham-Black.woff2") format("woff2"),
        url("../fonts/Gotham-Black.woff") format("woff"),
        url("../fonts/Gotham-Black.ttf") format("ttf");
+}
+
+
+@font-face {
+  font-family: "GothamM";
+  font-weight: 200;
+  src: url("../fonts/GothamMedium.woff2") format("woff2"),
+       url("../fonts/Gotham-Medium.woff") format("woff"),
+       url("../fonts/Gotham-Medium.ttf") format("ttf");
 }
